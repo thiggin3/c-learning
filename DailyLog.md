@@ -1,4 +1,5 @@
 # c-learning
+
 This is a repository for my C programming learning practice projects
 Day 1: 
     -Learning how to use Github
@@ -121,6 +122,65 @@ Day 2:
         To make " " appear in a print output, it must be escaped with a \
             EX
                 printf("\"Hello!\"\n");
-        
 
+Day 3:
+    -Created a program that takes 2 fractions from the user and adds them together and prints the sum
+    -Learned about how C handles arithmitic operations
+        +
+            Addition
+        -
+            Subtraction
+        *
+            Multiplication
+        /
+            Division
+        %
+            Remainder
+            is two ints are divided, c will round down the number
+                EX: 1/2=0 NOT 1/2=.5
+                at least one number must be a float
+    -C follows PEMDAS Rules
+        i + j * k is the same as i * (j * k)
+            General rule is to always use parentheses for easy reading
+    -Learned about compound assignment
+        i += 2 is the same as i = i + 2
+    -Learned about increment and decrement operators
+        i = 1;
+        printf("i is %d\n", ++i); //This pre-increments i and prints 2
+        printf("i is %d\n", i);   //This still prints 2
 
+        i = 1;
+        printf("i is %d\n", i++); //This post-increments i and prints 1
+        printf("i is %d\n", i);   //This prints 2
+
+        This is the same for --i and i--
+    -Learned about logical expressions
+        <
+            Less than
+        >
+            Greater than
+        <=
+            Less than or equal to
+        >=
+            Greater than or equal to
+        ==
+            Equal to
+        !=
+            Not equal to
+        !
+            Logical negation
+        &&
+            Logical and
+        ||
+            Logical or
+    -Learned about if else
+    -Learned about conditional statements
+        if (i > j)
+            return i;
+        else
+            return j;
+            Can be written as
+            i > j ? i : j;
+    -Learned about switch
+        Can replace a group if if else statments
+        See 6_Switch for example
